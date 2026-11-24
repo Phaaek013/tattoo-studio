@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-24T12:00:00Z",
+  "title": "Design System: Pk'House Studio",
+  "extensions": {
+    "colorMeta": {
+      "ink": { "role": "primary", "displayName": "Prensa Black", "canonical": "#1b1612", "tonalRamp": ["oklch(15% 0.01 60)", "oklch(21% 0.012 60)", "oklch(30% 0.015 60)", "oklch(42% 0.018 60)", "oklch(55% 0.018 60)", "oklch(68% 0.015 60)", "oklch(82% 0.01 60)", "oklch(94% 0.005 60)"] },
+      "gema": { "role": "secondary", "displayName": "Gema Yellow", "canonical": "#f2c53d", "tonalRamp": ["oklch(30% 0.06 88)", "oklch(42% 0.09 88)", "oklch(55% 0.12 88)", "oklch(68% 0.15 88)", "oklch(84% 0.16 88)", "oklch(89% 0.12 88)", "oklch(93% 0.08 88)", "oklch(97% 0.03 88)"] },
+      "chiclete": { "role": "tertiary", "displayName": "Chiclete Pink", "canonical": "#f4a9bf", "tonalRamp": ["oklch(28% 0.05 0)", "oklch(40% 0.08 0)", "oklch(52% 0.1 0)", "oklch(64% 0.11 0)", "oklch(80% 0.09 0)", "oklch(86% 0.07 0)", "oklch(91% 0.045 0)", "oklch(96% 0.02 0)"] },
+      "limao": { "role": "tertiary", "displayName": "Limão Green", "canonical": "#bcd96a", "tonalRamp": ["oklch(28% 0.05 120)", "oklch(40% 0.08 120)", "oklch(52% 0.11 120)", "oklch(66% 0.13 120)", "oklch(84% 0.13 120)", "oklch(89% 0.1 120)", "oklch(93% 0.06 120)", "oklch(97% 0.025 120)"] },
+      "anil": { "role": "tertiary", "displayName": "Anil Blue", "canonical": "#86b6de", "tonalRamp": ["oklch(26% 0.05 245)", "oklch(38% 0.07 245)", "oklch(50% 0.08 245)", "oklch(62% 0.08 245)", "oklch(74% 0.08 245)", "oklch(83% 0.06 245)", "oklch(90% 0.035 245)", "oklch(96% 0.015 245)"] },
+      "tangerina": { "role": "tertiary", "displayName": "Tangerina Orange", "canonical": "#f39d5c", "tonalRamp": ["oklch(28% 0.06 55)", "oklch(40% 0.09 55)", "oklch(52% 0.12 55)", "oklch(64% 0.13 55)", "oklch(77% 0.13 55)", "oklch(85% 0.09 55)", "oklch(91% 0.055 55)", "oklch(96% 0.02 55)"] },
+      "wash-carmim": { "role": "tertiary", "displayName": "Carmim Wash", "canonical": "#c8324f", "tonalRamp": ["oklch(24% 0.08 10)", "oklch(34% 0.12 10)", "oklch(44% 0.16 10)", "oklch(55% 0.19 10)", "oklch(66% 0.15 10)", "oklch(77% 0.1 10)", "oklch(87% 0.055 10)", "oklch(95% 0.02 10)"] },
+      "jornal": { "role": "neutral", "displayName": "Jornal Newsprint", "canonical": "#f1ece0", "tonalRamp": ["oklch(25% 0.01 85)", "oklch(38% 0.012 85)", "oklch(52% 0.014 85)", "oklch(66% 0.015 85)", "oklch(80% 0.016 85)", "oklch(89% 0.016 85)", "oklch(94% 0.016 85)", "oklch(98% 0.008 85)"] },
+      "ink-soft": { "role": "neutral", "displayName": "Barbante Brown", "canonical": "#3a2f26", "tonalRamp": ["oklch(18% 0.015 60)", "oklch(25% 0.018 60)", "oklch(31% 0.02 60)", "oklch(42% 0.022 60)", "oklch(55% 0.022 60)", "oklch(68% 0.018 60)", "oklch(82% 0.012 60)", "oklch(94% 0.006 60)"] },
+      "pino": { "role": "neutral", "displayName": "Pregador Wood", "canonical": "#b8864f", "tonalRamp": ["oklch(26% 0.04 65)", "oklch(37% 0.06 65)", "oklch(49% 0.08 65)", "oklch(64% 0.09 65)", "oklch(74% 0.08 65)", "oklch(83% 0.06 65)", "oklch(90% 0.035 65)", "oklch(96% 0.015 65)"] },
+      "erro": { "role": "neutral", "displayName": "Erro Red", "canonical": "#8f1d17", "tonalRamp": ["oklch(22% 0.08 30)", "oklch(32% 0.12 30)", "oklch(40% 0.14 30)", "oklch(50% 0.16 30)", "oklch(62% 0.13 30)", "oklch(74% 0.09 30)", "oklch(86% 0.05 30)", "oklch(95% 0.02 30)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Cover title only, pressed through #press, broken over two lines." },
+      "headline": { "displayName": "Headline", "purpose": "One monumental slab line per section, including the current style name." },
+      "title": { "displayName": "Title", "purpose": "Step names and care subheads in the slab, 1.35-1.5rem." },
+      "lead": { "displayName": "Lead", "purpose": "The one sentence under a headline, 26-38ch." },
+      "body": { "displayName": "Body", "purpose": "Running text and list rows in Vollkorn." },
+      "label": { "displayName": "Label", "purpose": "Definition terms, form legends and labels in Vollkorn bold, sentence case." },
+      "button": { "displayName": "Button", "purpose": "Carimbo and header buttons in the slab." }
+    },
+    "shadows": [
+      { "name": "folheto-hanging", "value": "0 10px 18px -10px rgb(27 22 18 / 0.5)", "purpose": "A folheto at rest on the string." },
+      { "name": "folheto-hover", "value": "0 16px 22px -12px rgb(27 22 18 / 0.55)", "purpose": "Folheto lifted 4px on hover." },
+      { "name": "folheto-chosen", "value": "0 18px 24px -12px rgb(27 22 18 / 0.6)", "purpose": "The chosen folheto, dropped 14px and tilted -1.5deg." },
+      { "name": "carimbo", "value": "0 6px 14px -6px rgb(27 22 18 / 0.55)", "purpose": "The stamp button at rest." },
+      { "name": "carimbo-hover", "value": "0 12px 22px -8px rgb(27 22 18 / 0.6)", "purpose": "The stamp button lifted 2px." },
+      { "name": "inner-sheet", "value": "0 24px 40px -24px rgb(27 22 18 / 0.6)", "purpose": "The open folheto and the talão (0.65 alpha) lying on a field." }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "The one easing for lifts, field colour change and entries." },
+      { "name": "lift", "value": "0.25s", "purpose": "Carimbo hover and press." },
+      { "name": "folheto-lift", "value": "0.35s", "purpose": "Folheto hover, choose and the selo stamp landing (scale 1.5 to 1)." },
+      { "name": "prensa", "value": "0.55s", "purpose": "A print entering: from scale 1.035 and 3px blur to rest." },
+      { "name": "field-change", "value": "0.5s", "purpose": "The styles section paper crossfading to the chosen style's paper." },
+      { "name": "varal-spring", "value": "stiffness 0.045, damping 0.09, clamp ±14deg", "purpose": "Damped swing of each folheto from wind, scroll velocity and pointer nudge; off under reduced motion." }
+    ],
+    "breakpoints": [
+      { "name": "steps-two", "value": "1000px" },
+      { "name": "stack", "value": "820px" },
+      { "name": "narrow", "value": "520px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Carimbo Button",
+      "kind": "button",
+      "refersTo": "button-carimbo",
+      "description": "Primary action: a carved ink stamp with paper-coloured slab type and a roughened edge.",
+      "html": "<button class=\"ds-carimbo\">Pedir orçamento <span class=\"ds-carimbo-estilo\">· Tradicional</span></button>",
+      "css": ".ds-carimbo { position: relative; isolation: isolate; display: inline-flex; align-items: center; gap: 0.4em; padding: 0.95rem 1.6rem 1rem; border: 0; background: none; color: var(--paper, #f2c53d); font-family: 'Alfa Slab One', Rockwell, serif; font-size: 1.05rem; letter-spacing: 0.01em; line-height: 1.1; cursor: pointer; transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1); } .ds-carimbo::before { content: ''; position: absolute; inset: 0; z-index: -1; background: #1b1612; filter: url(#rough); box-shadow: 0 6px 14px -6px rgb(27 22 18 / 0.55); transition: box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1); } .ds-carimbo:hover { transform: translateY(-2px); } .ds-carimbo:hover::before { box-shadow: 0 12px 22px -8px rgb(27 22 18 / 0.6); } .ds-carimbo:active { transform: translateY(1px); } .ds-carimbo:focus-visible { outline: 3px solid #1b1612; outline-offset: 3px; } .ds-carimbo-estilo { font-family: Vollkorn, Georgia, serif; font-weight: 600; }"
+    },
+    {
+      "name": "Header Button",
+      "kind": "button",
+      "refersTo": "button-topo",
+      "description": "Flat gema block on the black header bar.",
+      "html": "<div style=\"background:#1b1612;padding:12px\"><button class=\"ds-topo-btn\">Encomendar</button></div>",
+      "css": ".ds-topo-btn { border: 0; padding: 0.55rem 1.1rem 0.6rem; background: #f2c53d; color: #1b1612; font-family: 'Alfa Slab One', Rockwell, serif; font-size: 0.95rem; cursor: pointer; transition: background-color 0.2s; } .ds-topo-btn:hover { background: #f1ece0; } .ds-topo-btn:focus-visible { outline: 3px solid #f2c53d; outline-offset: 3px; }"
+    },
+    {
+      "name": "Seta",
+      "kind": "button",
+      "refersTo": "button-seta",
+      "description": "Square 46px arrow button with a 2px ink border; fills ink on hover.",
+      "html": "<button class=\"ds-seta\" aria-label=\"Próximo estilo\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></button>",
+      "css": ".ds-seta { display: grid; place-items: center; width: 46px; height: 46px; border: 2px solid #1b1612; background: transparent; color: #1b1612; cursor: pointer; transition: background-color 0.2s, color 0.2s; } .ds-seta svg { width: 20px; height: 20px; } .ds-seta:hover { background: #1b1612; color: #f2c53d; } .ds-seta:focus-visible { outline: 3px solid #1b1612; outline-offset: 3px; }"
+    },
+    {
+      "name": "Ficha",
+      "kind": "chip",
+      "refersTo": "chip-ficha",
+      "description": "Radio as a printed ticket; checked inverts to ink.",
+      "html": "<div class=\"ds-fichas\"><label class=\"ds-ficha\"><input type=\"radio\" name=\"ds-e\" checked><span>Tradicional</span></label><label class=\"ds-ficha\"><input type=\"radio\" name=\"ds-e\"><span>Realismo</span></label></div>",
+      "css": ".ds-fichas { display: flex; flex-wrap: wrap; gap: 8px; } .ds-ficha { position: relative; cursor: pointer; } .ds-ficha input { position: absolute; opacity: 0; inset: 0; cursor: pointer; } .ds-ficha span { display: block; padding: 7px 13px 8px; border: 2px solid #1b1612; color: #1b1612; font-family: Vollkorn, Georgia, serif; font-weight: 600; font-size: 1rem; line-height: 1.2; transition: background-color 0.2s, color 0.2s; } .ds-ficha:hover span { background: rgb(27 22 18 / 0.08); } .ds-ficha input:checked + span { background: #1b1612; color: #f1ece0; } .ds-ficha input:focus-visible + span { outline: 3px solid #1b1612; outline-offset: 3px; }"
+    },
+    {
+      "name": "Talão Field",
+      "kind": "input",
+      "refersTo": "input-talao",
+      "description": "Underline-only field on the jornal talão; focus thickens the rule.",
+      "html": "<label class=\"ds-campo\"><span class=\"ds-rotulo\">Sua ideia</span><textarea class=\"ds-input\" rows=\"3\" placeholder=\"Ex.: uma andorinha pequena, voando\"></textarea></label>",
+      "css": ".ds-campo { display: grid; gap: 8px; } .ds-rotulo { font-family: Vollkorn, Georgia, serif; font-weight: 700; font-size: 1rem; color: #1b1612; } .ds-input { width: 100%; font-family: Vollkorn, Georgia, serif; font-size: 1.1rem; color: #1b1612; background: transparent; border: 0; border-bottom: 2px solid #1b1612; border-radius: 0; padding: 8px 2px; resize: vertical; } .ds-input::placeholder { color: #6b5d50; font-style: italic; } .ds-input:focus { outline: none; border-bottom-width: 3px; background: rgb(27 22 18 / 0.04); }"
+    },
+    {
+      "name": "Talão",
+      "kind": "card",
+      "refersTo": "card-talao",
+      "description": "Jornal order sheet with anil perforation dots along the top and an inner-sheet shadow.",
+      "html": "<div style=\"background:#86b6de;padding:32px\"><div class=\"ds-talao\"><strong class=\"ds-talao-t\">Estilo</strong><p>O pedido sai pronto para o WhatsApp do estúdio.</p></div></div>",
+      "css": ".ds-talao { position: relative; display: grid; gap: 24px; padding: clamp(24px, 4vw, 40px); background: #f1ece0; color: #1b1612; font-family: Vollkorn, Georgia, serif; font-size: 1.125rem; line-height: 1.55; box-shadow: 0 24px 40px -24px rgb(27 22 18 / 0.65); } .ds-talao::before { content: ''; position: absolute; inset: -7px 0 auto 0; height: 14px; background: radial-gradient(circle at 7px 7px, #86b6de 4px, transparent 4.5px) 0 0 / 18px 14px repeat-x; } .ds-talao-t { font-weight: 700; } .ds-talao p { margin: 0; }"
+    },
+    {
+      "name": "Topo Nav",
+      "kind": "nav",
+      "refersTo": "nav-topo",
+      "description": "Fixed 60px ink bar: gema slab brand, jornal links, gema CTA.",
+      "html": "<header class=\"ds-topo\"><a class=\"ds-topo-marca\" href=\"#\">Pk'House</a><nav class=\"ds-topo-nav\"><a href=\"#\">Estilos</a><a href=\"#\">Como funciona</a><a href=\"#\">Cuidados</a></nav><button class=\"ds-topo-cta\">Encomendar</button></header>",
+      "css": ".ds-topo { height: 60px; display: flex; align-items: center; gap: 32px; padding-inline: 24px; background: #1b1612; color: #f1ece0; } .ds-topo-marca { font-family: 'Alfa Slab One', Rockwell, serif; font-size: 1.5rem; color: #f2c53d; text-decoration: none; margin-right: auto; } .ds-topo-nav { display: flex; gap: 28px; } .ds-topo-nav a { color: #f1ece0; text-decoration: none; font-family: Vollkorn, Georgia, serif; font-size: 1.02rem; font-weight: 500; text-underline-offset: 6px; } .ds-topo-nav a:hover { text-decoration: underline; text-decoration-color: #f2c53d; text-decoration-thickness: 2px; } .ds-topo a:focus-visible, .ds-topo-cta:focus-visible { outline: 3px solid #f2c53d; outline-offset: 3px; } .ds-topo-cta { border: 0; padding: 0.55rem 1.1rem 0.6rem; background: #f2c53d; color: #1b1612; font-family: 'Alfa Slab One', Rockwell, serif; font-size: 0.95rem; cursor: pointer; transition: background-color 0.2s; } .ds-topo-cta:hover { background: #f1ece0; }"
+    },
+    {
+      "name": "Folheto",
+      "kind": "custom",
+      "refersTo": "varal",
+      "description": "A style folheto hanging from a wooden pregador; lifts on hover, drops and takes the selo when chosen.",
+      "html": "<div style=\"background:#f2c53d;padding:24px 40px\"><button class=\"ds-folheto is-on\"><span class=\"ds-pregador\"></span><span class=\"ds-folheto-papel\"><span class=\"ds-folheto-t\">Tradicional</span><svg viewBox=\"0 0 200 200\" class=\"ds-folheto-g\"><rect x=\"5\" y=\"5\" width=\"190\" height=\"190\" fill=\"none\" stroke=\"#1b1612\" stroke-width=\"7\"/><rect x=\"13\" y=\"13\" width=\"174\" height=\"174\" fill=\"none\" stroke=\"#1b1612\" stroke-width=\"1.6\"/><circle cx=\"100\" cy=\"92\" r=\"46\" fill=\"#1b1612\"/><path d=\"M78 92 C84 74 116 74 122 92\" stroke=\"#f4a9bf\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/></svg><span class=\"ds-selo\">Escolhido</span></span></button></div>",
+      "css": ".ds-folheto { position: relative; width: 124px; padding: 0; border: 0; background: none; cursor: pointer; color: #1b1612; --paper: #f4a9bf; } .ds-pregador { position: absolute; left: 50%; top: 0; z-index: 2; width: 11px; height: 26px; transform: translateX(-50%); background: #b8864f; border: 1.5px solid #1b1612; border-radius: 2px; } .ds-folheto-papel { position: relative; display: block; margin-top: 12px; padding: 17px 9px 9px; background: #f4a9bf; box-shadow: 0 10px 18px -10px rgb(27 22 18 / 0.5); transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1); } .ds-folheto-t { display: block; margin-bottom: 6px; font-family: 'Alfa Slab One', Rockwell, serif; font-size: 0.82rem; line-height: 1; text-align: center; } .ds-folheto-g { display: block; width: 100%; height: auto; } .ds-folheto:hover .ds-folheto-papel { transform: translateY(-4px); box-shadow: 0 16px 22px -12px rgb(27 22 18 / 0.55); } .ds-folheto.is-on .ds-folheto-papel { transform: translateY(14px) rotate(-1.5deg); box-shadow: 0 18px 24px -12px rgb(27 22 18 / 0.6); } .ds-folheto:focus-visible { outline: none; } .ds-folheto:focus-visible .ds-folheto-papel { outline: 3px dashed #1b1612; outline-offset: 4px; } .ds-selo { position: absolute; right: -10px; bottom: 14px; padding: 4px 7px 5px; background: #1b1612; color: #f4a9bf; font-family: 'Alfa Slab One', Rockwell, serif; font-size: 0.66rem; line-height: 1; letter-spacing: 0.04em; text-transform: uppercase; transform: rotate(-9deg); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Cordel Stall",
+    "overview": "The studio is a folheto stall at the feira. Every section is a whole sheet of cheap coloured paper with visible grain, and everything printed on it is one black ink, pulled from a hand-cut block: edges bite, solids drop out in specks, tone comes only from gouged lines and hatching. Styles hang as small woodcut folhetos on a barbante string held by wooden pregadores, and taking one off the string is how an order starts.\n\nDensity is low and declarative: one monumental woodtype word or phrase per section, a sturdy book serif for everything read, and generous paper around both. Colour lives in the paper, never in the ink. The only exception in the shipped work is a translucent carmine wash multiplied under the aquarela print. Depth is physical paper: sheets lift and hang with soft drop shadows, nothing glows, nothing is rounded.\n\nConfirmed rejection (from the direction contract): the black-page-with-orange-accent tattoo template and the photo grid.",
+    "keyCharacteristics": [
+      "Whole-section paper fields (gema, chiclete, limão, anil, tangerina, jornal) carrying an SVG fractal-noise grain.",
+      "One ink (#1b1612) for all type, line, rule and solid; tone by cut line, never by grey fill.",
+      "Heavy slab woodtype display (Alfa Slab One) roughened by an SVG displacement-and-speckle filter; Vollkorn for text.",
+      "Square corners everywhere; rules are 2-3px ink lines.",
+      "Paper physics: soft hanging shadows, a damped swing on the varal, a stamp that lands with a short scale-down."
+    ],
+    "rules": [
+      { "name": "The One Ink Rule", "body": "Ink is #1b1612 and nothing else. Tone inside a print comes from cuts (strokes in `var(--paper)`) and hatching, never from grey fills or tinted ink. Ink at partial alpha (`rgb(27 22 18 / 0.04-0.6)`) is allowed only for shadows, hover tints and the page fold rule, never for type.", "section": "colors" },
+      { "name": "The Paper Is the Colour Rule", "body": "Colour enters as a whole field of paper, not as an accent on a neutral page. A new section picks one of the five papers (or jornal for an inner sheet) and fills edge to edge with grain.", "section": "colors" },
+      { "name": "The Paper Inherits Rule", "body": "Prints and stamps cut back to `var(--paper)`, so whatever sits on a sheet reads correctly on that sheet.", "section": "colors" },
+      { "name": "The One Word Rule", "body": "Each section gets one monumental slab line with real negative space around it; no second slab headline competes in the same field.", "section": "typography" },
+      { "name": "The Woodtype Press Rule", "body": "Display-size slab (cover title, section headlines, the style name, footer mark) runs through `filter: url(#press)`. Small slab (buttons, folheto titles) stays clean for legibility.", "section": "typography" },
+      { "name": "The Lifted Paper Rule", "body": "Only a separate piece of paper casts a shadow, and the shadow always falls downward with negative spread. Fields, rules and text never do.", "section": "elevation" }
+    ],
+    "dos": [
+      "**Do** fill each section edge to edge with one folheto paper plus the grain, and print on it in ink only.",
+      "**Do** build tone inside prints from cut strokes in `var(--paper)` and hatching, inside the double-ruled block under `filter: url(#ink)`.",
+      "**Do** keep one slab headline per section, pressed through `#press`, with Vollkorn for all reading text.",
+      "**Do** keep every corner square and divide content with 2-3px ink rules.",
+      "**Do** give only separate sheets of paper a downward, negatively spread shadow in ink alpha.",
+      "**Do** disable the varal swing, the stamp and the print entry under `prefers-reduced-motion`."
+    ],
+    "donts": [
+      "**Don't** build the black page with an orange accent, or a photo grid of tattoos.",
+      "**Don't** put colour inside the ink or use grey fills for tone; the carmine aquarela wash is the single exception.",
+      "**Don't** round corners or soften rules into hairline greys.",
+      "**Don't** use hard offset shadows, glows or glass; depth is paper lifting off paper."    ]
+  }
+}

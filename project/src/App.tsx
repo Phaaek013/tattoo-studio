@@ -1,21 +1,32 @@
-import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Gallery from './components/Gallery';
-import Testimonials from './components/Testimonials';
-import About from './components/About';
-import Footer from './components/Footer';
+import { useCallback, useState } from 'react';
+import Defs from './art/Defs';
+import Topo from './components/Topo';
+import Capa from './components/Capa';
+import Estilos from './components/Estilos';
+import Sessao from './components/Sessao';
+import Cuidados from './components/Cuidados';
+import Encomenda from './components/Encomenda';
+import Rodape from './components/Rodape';
 
 function App() {
+  const [estilo, setEstilo] = useState('tradicional');
+  const encomendar = useCallback(() => {
+    document.getElementById('encomenda')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, []);
+
   return (
-    <div className="min-h-screen bg-black">
-      <Header />
-      <Hero />
-      <Gallery />
-      <Testimonials />
-      <About />
-      <Footer />
-    </div>
+    <>
+      <Defs />
+      <Topo onEncomendar={encomendar} />
+      <main>
+        <Capa selected={estilo} onSelect={setEstilo} onEncomendar={encomendar} />
+        <Estilos selected={estilo} onSelect={setEstilo} onEncomendar={encomendar} />
+        <Sessao />
+        <Cuidados />
+        <Encomenda selected={estilo} onSelect={setEstilo} />
+      </main>
+      <Rodape />
+    </>
   );
 }
 
